@@ -11,7 +11,9 @@ Then podrá [practicar con juegos relacionados a la materia]  [nivel en el que v
 
 
 Examples: 
+
 |     Pagina de Inico   |Materia que quiera practicar| Nivel del juego| 
+
 |  Juegos Academicos    |    Juegos de Matematicas   |         3      |
 |  Juegos Academicos    |    Jegos de escritura      |         1      |  
 |  Juegos Academicos    |    Juegos de Literatura    |         5      |  
@@ -25,8 +27,8 @@ When termine una lección de nuestra plataforma
 Then podrá ver ejercicios interactivos relacionados a ese tema
 
 Examples: 
+
 | Pagina de Inicio |Seccion de lecciones     |                  Mensaje          |
+
 |Juegos Academicos | Leccion 1 de lenguaje   |Leccion 1 terminado, felicitaciones|
 |Juegos Academicos | Leccion 5 de matematicas|Leccion 5 terminado, ve por mas    |
-
-
