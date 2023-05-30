@@ -1,0 +1,36 @@
+Feature: HU07: Programar pruebas de nivel
+ como usuario persona quiero realizar pequeñas pruebas de nivel dentro del
+ app para asi conocer si estoy mejorando y que fallas estoy teniendo.
+
+Scenario: el usuario persona realiza la prueba en la plataforma
+ Given que el usuario persona quiere hacer la prueba para ver su nivel de avance 
+ de todos los cursos que brinda nuestra aplicativo.
+  And el usuario persona accede a la app
+  And selección a la opción "pruebas de semanas"
+  And el sistema le muestra las preubas de semanas de cada curso como: comunicación y matemáticas
+  When ve los cursos el usuario escoge con el curso que decida comenzar la prueba
+  Then el usuario solo debera realizar las pruebas de los cursos
+  
+  Examples:
+      |        Pruebas de semanas                           |
+      |Lectura   | matemáticas             |Lenguaje        |
+      | Cuentos  |    suma                 | los abecedarios|
+      | Relatos  | operaciones combinadas  | Oraciones      |
+
+Scenario: El usuario persona realiza de nuevo la pueba
+Given que el usuario persona reprobó el examen en su primer intento y no esta conforme con la nota obtenido
+And el usuario persona de nuevo busca la opción de reanudar otra prueba "intento dos"
+And ingrese a rendir de nuevo la evalución los mismos cursos con preguntas aleatorios
+And ingresa a rendir de nuevo la evaluación los mismos cursos con preguntas aleatorios
+When ve que en su intento logro superar y esta conforme
+Then aparece en la pantalla "usuario aprobado"
+
+Examples:
+      |                        Intento dos                                      |
+      | Lectura     |matemáticas              | Lenguaje       |Mensaje         |   
+      |Cuentos      |    suma                 | los abecedarios|Usuario aprobado|
+      | Relatos     | operaciones combinadas  | Oraciones      |Usuario aprobado|
+
+
+
+   Feature Description
