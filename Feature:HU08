@@ -1,0 +1,19 @@
+Feature: HU08: Visualizar los cursos por nivel
+Como usuario persona quiero poder Visualizar todos los cursos por nivel que nos 
+ofrezcab en la app para poder empezar desde el nivel de cocnocimiento que tengo
+
+Scenario: El usuario persona visualiza los cursos por nivel
+Given que el usuario persona quiera ver sus cursos para iniciar desde cero u otro nivel de inicio
+y con ello el usuario este cómodo en la plataforma e ingrese a cursos
+When el usuario persona ya haya ingresado a los cursos y visualizado todos los cursos y presione lo siguiente
+And contenidos de cada curso
+And presione en el nivel que desea empezar 
+Then al elegir el nivel se mostrará que "usted empezará desde este nivel que eligió"
+
+Examples:
+      |                                 Nivel 1                                                                                     |
+      | matematica                                                 | Lenguaje                                     |Mensaje          |
+      |Empieza a escribir los numeros naturales                    |Empieza aprendiendo los abecedarios           |Empezo el nivel 1|
+      |Empieza desde operaciones basicas(suma,resta,multiplicación)|Empieza a identificar fracciones de la oración|Empezo el nivel 1|
+
+    Feature Description
