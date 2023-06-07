@@ -1,1 +1,6 @@
 # Criterios_Aceptacion
+Somos un grupo de estudiantes de la UPC pertenecientes al startup “EdukPeru”. Nuestra propuesta es desarrollar una plataforma de enseñanza dirigido a personas que poseen dificultades para leer y escribir en las zonas rurales del Perú. Nuestra iniciativa plantea utilizar la tecnología y los recursos humanos para desarrollar una plataforma interactiva y sencilla, diseñada para personas con poco conocimiento de los aparatos electrónicos, como celulares o computadoras. Con ello, se busca ofrecer una experiencia educativa a distancia de buena calidad con el fin de que puedan gozar de mayores oportunidades en su vida cotidiana. 
+
+Nuestra misión es brindar una educación básica de calidad a personas analfabetas de las zonas rurales del Perú. Para ello, se le proporcionará la oportunidad de aprender a leer, escribir y realizar operaciones matemáticas. Nuestra plataforma se adecuará al público objetivo con el fin de ser más accesible para ellos. 
+
+Nuestra visión es ser la plataforma preferida para la enseñanza de personas analfabetas en el Perú. Asimismo, buscamos disminuir la tasa de analfabetismo en el Perú y brindar a las personas los recursos educativos necesarios para mejorar su calidad de vida y poder acceder a diversas oportunidades. 
